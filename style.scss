@@ -1,0 +1,29 @@
+$dark:#171D1F;
+$yellow:#FDC400;
+$transparent:rgba(246, 246, 246, 0.05);
+body{
+    max-width: 1440px;
+    width: 100%;
+    height: max-content;
+    scroll-behavior: smooth;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    width: 100%;
+
+}
+.full-logo{
+    display: flex;
+    &__logo{
+        
+    }
+}
