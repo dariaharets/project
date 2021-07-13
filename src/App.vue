@@ -1,18 +1,18 @@
 <template>
-  <Home />
+<Home />
 </template>
 
 <script>
-import Home from './pages/home/index.vue';
+import Home from './components/index.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    Home, 
   }
 }
 </script>
 
-<style lang="scss">
-@import url(./assets/normalize.css);
+<style lang='scss'>
+
 </style>
