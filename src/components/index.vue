@@ -33,30 +33,30 @@ export default {
 $dark:#171D1F;
 $yellow:#FDC400;
 $transparent:rgba(246, 246, 246, 0.05);
-// @font-face{
-//     font-family: 'Museo Sans Cyrl';
-//     src: url(../assets/Museo\ Sans\ Cyrl\ 300.ttf) format(truetype);
-//     font-weight: normal;
-//     font-style: normal;
-// }
-// @font-face{
-//     font-family: 'Museo Sans Cyrl';
-//     src: url(../assets/Museo\ Sans\ Cyrl\ 500.ttf) format(truetype);
-//     font-weight: bold;
-//     font-style: normal;
-// }
-// @font-face{
-//     font-family: 'Proxima Nova';
-//     src: url(../assets/Proxima\ Nova\ Regular.ttf) format(truetype);
-//     font-weight: bold;
-//     font-style: normal;
-// }
+@font-face{
+    font-family: 'Museo Sans Cyrl';
+    src: url('/fonts/Museo_Sans_Cyrl_300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Museo Sans Cyrl';
+    src: url(../assets/Museo_Sans_Cyrl_500.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Proxima Nova';
+    src: url(../assets/Proxima_Nova_Regular.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 body{
     max-width: 1440px;
     width: 100%;
-    height: max-content;
     scroll-behavior: smooth;
+    background-color: black;
 }
 h1{
     font-family: 'Roboto Condensed', sans-serif;
