@@ -44,17 +44,24 @@ header {
 }
 .full-logo {
   display: flex;
+  color: white;
+  align-items: center;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 18px;
   &__logo {
     height: 46px;
     width: 46px;
-    background-image: url(../assets/logo.png);
+    background-image: url(../assets/Logo.png);
     background-position: center;
     background-repeat: no-repeat;
+    margin-right: 20px;
   }
 }
 .menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 65%;
+  font-size: 14px;
 }
 </style>
