@@ -75,7 +75,7 @@ p {
   font-size: 16px;
   line-height: 28px;
 }
-button {
+.transparent-button {
   width: 160px;
   height: 54px;
   background-color: transparent;
@@ -83,9 +83,22 @@ button {
   border: 1px solid $yellow;
   color: white;
 }
-button:hover {
+.transparent-button:hover {
   background-color: $yellow;
   color: $dark;
+}
+.yellow-button {
+    width: 160px;
+  height: 54px;
+  background-color: $yellow;
+  border-radius: 5px;
+  color: $dark;
+  border: none;
+}
+.yellow-button:hover{
+    background-color: transparent;
+  border: 1px solid $yellow;
+  color: white;
 }
 .wrapper {
   position: relative;

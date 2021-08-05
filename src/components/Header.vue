@@ -20,7 +20,7 @@
         <p>How do we deliver</p>
       </div>
       <div class="menu__item">
-        <button>Buy a set</button>
+        <button class="transparent-button">Buy a set</button>
       </div>
     </div>
   </header>
