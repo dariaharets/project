@@ -70,6 +70,12 @@ h2 {
   line-height: 54px;
   color: white;
 }
+h3{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
 p {
   font-family: "Museo Sans Cyrl", sans-serif;
   color: white;
