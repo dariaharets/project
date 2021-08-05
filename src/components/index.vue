@@ -56,6 +56,7 @@ body {
   scroll-behavior: smooth;
   background-color: black;
 }
+
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 74px;
@@ -75,7 +76,7 @@ p {
   font-size: 16px;
   line-height: 28px;
 }
-.transparent-button {
+.primary-button {
   width: 160px;
   height: 54px;
   background-color: transparent;
@@ -83,11 +84,11 @@ p {
   border: 1px solid $yellow;
   color: white;
 }
-.transparent-button:hover {
+.primary-button:hover {
   background-color: $yellow;
   color: $dark;
 }
-.yellow-button {
+.secondary-button {
     width: 160px;
   height: 54px;
   background-color: $yellow;
@@ -95,7 +96,7 @@ p {
   color: $dark;
   border: none;
 }
-.yellow-button:hover{
+.secondary-button:hover{
     background-color: transparent;
   border: 1px solid $yellow;
   color: white;

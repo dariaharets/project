@@ -2,7 +2,7 @@
   <div class="section1">
     <h1>Essential lens, filters, and cases for drones</h1>
     <div class="section1__buttons">
-      <button class="yellow-button">Buy a set</button>
+      <button class="secondary-button">Buy a set</button>
       <p>
         How do we deliver?
         <i class="fas fa-chevron-circle-right"></i>
