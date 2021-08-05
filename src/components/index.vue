@@ -76,7 +76,7 @@ p {
   font-size: 16px;
   line-height: 28px;
 }
-button {
+.primary-button {
   width: 160px;
   height: 54px;
   background-color: transparent;
@@ -84,9 +84,22 @@ button {
   border: 1px solid $yellow;
   color: white;
 }
-button:hover {
+.primary-button:hover {
   background-color: $yellow;
   color: $dark;
+}
+.secondary-button {
+    width: 160px;
+  height: 54px;
+  background-color: $yellow;
+  border-radius: 5px;
+  color: $dark;
+  border: none;
+}
+.secondary-button:hover{
+    background-color: transparent;
+  border: 1px solid $yellow;
+  color: white;
 }
 .wrapper {
   position: relative;
