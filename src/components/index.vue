@@ -56,6 +56,7 @@ body {
   scroll-behavior: smooth;
   background-color: black;
 }
+
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 74px;
