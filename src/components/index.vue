@@ -54,7 +54,7 @@ body {
   max-width: 1440px;
   width: 100%;
   scroll-behavior: smooth;
-  background-color: black;
+  background-color: $dark;
   margin: 0 auto;
 }
 a{
@@ -89,6 +89,9 @@ p {
   color: white;
   font-size: 16px;
   line-height: 28px;
+}
+.yellow-text{
+    color: $yellow;
 }
 .primary-button {
   width: 160px;
