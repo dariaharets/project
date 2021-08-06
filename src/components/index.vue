@@ -55,14 +55,22 @@ body {
   width: 100%;
   scroll-behavior: smooth;
   background-color: black;
+  margin: 0 auto;
 }
-
+a{
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+  font-style: normal;
+}
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 74px;
   font-weight: bold;
   line-height: 87px;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 h2 {
   font-family: "Roboto Condensed", sans-serif;
