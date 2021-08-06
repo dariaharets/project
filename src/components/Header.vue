@@ -51,7 +51,7 @@ header {
   &__logo {
     height: 46px;
     width: 46px;
-    background-image: url(../assets/Logo.png);
+    background-image: url(../assets/logo-main.png);
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 20px;
