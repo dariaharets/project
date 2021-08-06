@@ -7,18 +7,26 @@
       </div>
     </div>
     <div class="menu">
-      <div class="menu__item">
+      <a href="#"
+      ><div class="menu__item">
         <p>Features</p>
       </div>
+      </a>
+      <a href="#">
       <div class="menu__item">
         <p>Technologies</p>
       </div>
+      </a>
+      <a href="#">
       <div class="menu__item">
         <p>Who we are</p>
       </div>
+      </a>
+      <a href="#">
       <div class="menu__item">
         <p>How do we deliver</p>
       </div>
+      </a>
       <div class="menu__item">
         <button class="primary-button">Buy a set</button>
       </div>
@@ -41,6 +49,8 @@ header {
   justify-content: space-around;
   height: 130px;
   width: 100%;
+  margin: 0 auto;
+  z-index: 2;
 }
 .full-logo {
   display: flex;
