@@ -5,7 +5,7 @@
     <Section2 />
     <Section3 />
     <Section4 />
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -40,17 +40,17 @@ $transparent: rgba(246, 246, 246, 0.05);
   font-weight: normal;
   font-style: normal;
 }
-@font-face{
-    font-family: 'Museo Sans Cyrl';
-    src: url('/fonts/Museo_Sans_Cyrl_500.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("/fonts/Museo_Sans_Cyrl_500.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
-@font-face{
-    font-family: 'Proxima Nova';
-    src: url('/fonts/Proxima_Nova_Regular.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/Proxima_Nova_Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
@@ -61,7 +61,7 @@ body {
   margin: 0 auto;
   color: white;
 }
-a{
+a {
   text-decoration: none;
   outline: none;
   color: inherit;
@@ -80,18 +80,18 @@ h2 {
   font-size: 40px;
   line-height: 54px;
 }
-h3{
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 22px;
-    font-weight: bold;
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
 }
 p {
   font-family: "Museo Sans Cyrl", sans-serif;
   font-size: 16px;
   line-height: 28px;
 }
-.yellow-text{
-    color: $yellow;
+.yellow-text {
+  color: $yellow;
 }
 .primary-button {
   width: 160px;
@@ -106,15 +106,15 @@ p {
   color: $dark;
 }
 .secondary-button {
-    width: 160px;
+  width: 160px;
   height: 54px;
   background-color: $yellow;
   border-radius: 5px;
   color: $dark;
   border: none;
 }
-.secondary-button:hover{
-    background-color: transparent;
+.secondary-button:hover {
+  background-color: transparent;
   border: 1px solid $yellow;
   color: white;
 }

@@ -71,12 +71,12 @@ $transparent: rgba(246, 246, 246, 0.05);
     }
   }
   .menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 65%;
-  font-size: 14px;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    font-size: 14px;
+  }
   .rare-button {
     width: 160px;
     height: 54px;
