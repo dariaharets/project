@@ -8,24 +8,24 @@
     </div>
     <div class="menu">
       <a href="#"
-      ><div class="menu__item">
-        <p>Features</p>
-      </div>
+        ><div class="menu__item">
+          <p>Features</p>
+        </div>
       </a>
       <a href="#">
-      <div class="menu__item">
-        <p>Technologies</p>
-      </div>
+        <div class="menu__item">
+          <p>Technologies</p>
+        </div>
       </a>
       <a href="#">
-      <div class="menu__item">
-        <p>Who we are</p>
-      </div>
+        <div class="menu__item">
+          <p>Who we are</p>
+        </div>
       </a>
       <a href="#">
-      <div class="menu__item">
-        <p>How do we deliver</p>
-      </div>
+        <div class="menu__item">
+          <p>How do we deliver</p>
+        </div>
       </a>
       <div class="menu__item">
         <button class="primary-button">Buy a set</button>
@@ -56,7 +56,7 @@ header {
   display: flex;
   color: white;
   align-items: center;
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 18px;
   &__logo {
     height: 46px;
