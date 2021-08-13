@@ -4,8 +4,9 @@
     <Section1 />
     <Section2 />
     <Section3 />
-    <Section4 />    
+    <Section4 />
     <Section6 />
+    <Section11 />
     <Footer />
   </div>
 </template>
@@ -16,6 +17,7 @@ import Section1 from "./components/Section1.vue";
 import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
 import Section4 from "./components/Section4.vue";
+import Section11 from "./components/Section11.vue";
 import Footer from "./components/Footer.vue";
 import Section6 from "./components/Section6.vue";
 
@@ -27,8 +29,9 @@ export default {
     Section2,
     Section3,
     Section4,
-    Footer,
     Section6,
+    Section11,
+    Footer,
   },
 };
 </script>
