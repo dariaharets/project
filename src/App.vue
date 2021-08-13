@@ -4,8 +4,9 @@
     <Section1 />
     <Section2 />
     <Section3 />
-    <Section4 />
+    <Section4 />    
     <Section6 />
+    <Footer />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Section1 from "./components/Section1.vue";
 import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
 import Section4 from "./components/Section4.vue";
+import Footer from "./components/Footer.vue";
 import Section6 from "./components/Section6.vue";
 
 export default {
@@ -25,6 +27,7 @@ export default {
     Section2,
     Section3,
     Section4,
+    Footer,
     Section6,
   },
 };
@@ -59,6 +62,7 @@ body {
   scroll-behavior: smooth;
   background-color: $dark;
   margin: 0 auto;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -71,7 +75,6 @@ h1 {
   font-size: 74px;
   font-weight: bold;
   line-height: 87px;
-  color: white;
   margin: 0;
   padding: 0;
 }
@@ -79,17 +82,14 @@ h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 40px;
   line-height: 54px;
-  color: white;
 }
 h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 22px;
-  color: white;
   font-weight: bold;
 }
 p {
   font-family: "Museo Sans Cyrl", sans-serif;
-  color: white;
   font-size: 16px;
   line-height: 28px;
 }
