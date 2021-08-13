@@ -4,9 +4,9 @@
     <Section1 />
     <Section2 />
     <Section3 />
-    <Section4 />
-    <Footer />
+    <Section4 />    
     <Section6 />
+    <Footer />
   </div>
 </template>
 
