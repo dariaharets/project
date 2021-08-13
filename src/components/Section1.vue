@@ -3,8 +3,8 @@
     <h1>Essential lens, filters, and cases for drones</h1>
     <div class="section1__buttons">
       <button class="secondary-button">Buy a set</button>
-      <a href="#"
-        ><p>
+      <a href="#">
+        <p>
           How do we deliver?
           <i class="fas fa-chevron-circle-right"></i>
         </p>
