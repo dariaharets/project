@@ -8,6 +8,7 @@
     <Section6 />
     <Section7 />    
     <Section8 />
+    <Section9 />
     <Section10 />
     <Section11 />
     <Footer />
@@ -20,6 +21,7 @@ import Section1 from "./components/Section1.vue";
 import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
 import Section4 from "./components/Section4.vue";
+import Section9 from "./components/Section9.vue";
 import Section6 from "./components/Section6.vue";
 import Section7 from "./components/Section7.vue";
 import Section8 from "./components/Section8.vue";
@@ -38,6 +40,7 @@ export default {
     Section4,
     Section7,
     Section8,
+    Section9,
     Section6,
     Section10,
     Section11,
@@ -137,5 +140,13 @@ p {
 .wrapper {
   position: relative;
   width: 100%;
+}
+.price {
+  font-size: 20px;
+  .decorated {
+    text-decoration: line-through;
+    color: #afafaf;
+    padding-left: 20px;
+  }
 }
 </style>
