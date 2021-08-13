@@ -7,26 +7,10 @@
       </div>
     </div>
     <div class="menu">
-      <a href="#"
-      ><div class="menu__item">
-        <p>Features</p>
-      </div>
-      </a>
-      <a href="#">
-      <div class="menu__item">
-        <p>Technologies</p>
-      </div>
-      </a>
-      <a href="#">
-      <div class="menu__item">
-        <p>Who we are</p>
-      </div>
-      </a>
-      <a href="#">
-      <div class="menu__item">
-        <p>How do we deliver</p>
-      </div>
-      </a>
+      <a href="#" class="menu__item"> Features </a>
+      <a class="menu__item" href="#"> Technologies </a>
+      <a class="menu__item" href="#"> Who we are </a>
+      <a class="menu__item" href="#"> How do we deliver </a>
       <div class="menu__item">
         <button class="primary-button">Buy a set</button>
       </div>
@@ -56,7 +40,7 @@ header {
   display: flex;
   color: white;
   align-items: center;
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 18px;
   &__logo {
     height: 46px;
@@ -73,5 +57,11 @@ header {
   align-items: center;
   width: 65%;
   font-size: 14px;
+  &__item {
+    font-family: "Museo Sans Cyrl", sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
 </style>

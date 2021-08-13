@@ -5,7 +5,7 @@
     </div>
     <div class="section2__text">
       <h2>
-        Essential <span class="yellow-text">blogger</span> accessories and
+        Essential <strong class="yellow-text">blogger</strong> accessories and
         <span class="yellow-text">filmmaker’s</span> tool
       </h2>
       <p>
