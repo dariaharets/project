@@ -7,33 +7,10 @@
       </div>
     </div>
     <div class="menu">
-<<<<<<< HEAD
-      <a href="#"
-        ><div class="menu__item">
-          <p>Features</p>
-        </div>
-      </a>
-      <a href="#">
-        <div class="menu__item">
-          <p>Technologies</p>
-        </div>
-      </a>
-      <a href="#">
-        <div class="menu__item">
-          <p>Who we are</p>
-        </div>
-      </a>
-      <a href="#">
-        <div class="menu__item">
-          <p>How do we deliver</p>
-        </div>
-      </a>
-=======
       <a href="#" class="menu__item"> Features </a>
       <a class="menu__item" href="#"> Technologies </a>
       <a class="menu__item" href="#"> Who we are </a>
       <a class="menu__item" href="#"> How do we deliver </a>
->>>>>>> c074060b60053f31d9bc2b170d609da16ff4dac3
       <div class="menu__item">
         <button class="primary-button">Buy a set</button>
       </div>
